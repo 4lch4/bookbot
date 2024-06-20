@@ -27,15 +27,9 @@ def main():
         letters_count = get_letters_count(text)
 
         print(f"{word_count} words found in the text.\n")
-        
+
         for letter, count in letters_count.items():
             print(f"The letter '{letter}' appears {count} times in the text.")
-            # print(f"{letter}: {count}")
-
-        # print(f"Word count: {word_count}")
-        # print(f"Letters count: {letters_count}")
-
-        # print(text[:25])
 
 
 main()
